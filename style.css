@@ -1,0 +1,115 @@
+h1 {
+    display:inline-block;
+    font-size: 3rem;
+    font-family: 'Silkscreen', cursive;
+ 
+}
+h2 {
+    display:inline-block;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+.entry {
+    display: flex;
+    justify-content: center;
+    font-size:25px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    text-align: right;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+input {
+    font-size:35px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    width: 30%;
+    height: auto; 
+}
+#memeForm > button {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size : 35px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    background-color: #00d4ff;
+    border-radius:5px;  
+    border-color: rgb(230, 119, 211);
+    box-shadow: #00d4ff;
+}
+.gradient {
+    background: rgb(239,56,250);
+    background: linear-gradient(90deg, rgba(239,56,250,1) 0%, rgba(240,139,227,1) 9%, rgba(255,203,253,1) 29%, rgba(151,237,241,1) 70%, rgba(123,192,246,1) 88%, rgba(0,172,255,1) 100%);
+}
+.divBox {
+    position : relative;
+    display: inline-block;
+    margin : 0px;
+}
+.memeTextTop {
+    position: absolute;
+    text-align:center;
+    margin-top: 2px;
+    top: 0;
+    font-family: 'impact';
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    padding-top: 5px;
+    word-wrap: break-word;
+    padding: bottom: 0px;
+}
+.memeTextBottom {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2px;
+    text-align: center;
+    font-family: 'impact';
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    padding-top: 0;
+    padding-bottom: 5px;
+    word-wrap: break-word;
+}
+.remove {
+    display: absolute;
+    position: relative;
+    margin: 0px;
+    vertical-align: middle;
+    top:0;
+    padding:0;
+    top: 0;
+    color: red;
+    text-align:center;
+    font-size: 270px;
+    padding-top: 0px;
+    margin: 0px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    opacity: 0%;
+    
+}
+.divBox:hover .remove {
+position: relative;
+display: block;
+top:0;
+opacity: 100%;
+transition-duration: 3s;
+}
+.divBox:hover {
+    filter: grayscale(75%);
+    transition-duration: 3s;
+}
+.divBox:active{
+    filter: grayscale(75%);
+    transition-duration: 3s;
+}
+.divBox:active .remove {
+    position: relative;
+display: block;
+top:0;
+opacity: 100%;
+transition-duration: 3s;
+}
+
+
